@@ -12,7 +12,6 @@ target 'RNFirebaseMaps' do
     pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
     pod 'React', path: rn_path, subspecs: [
     'Core',
-    'tvOS',
     'RCTActionSheet',
     'RCTAnimation',
     'RCTGeolocation',
@@ -22,9 +21,7 @@ target 'RNFirebaseMaps' do
     'RCTSettings',
     'RCTText',
     'RCTVibration',
-    'RCTWebSocket',
-    'BatchedBridge',
-    'DevSupport'
+    'RCTWebSocket'
     ]
 
     target 'RNFirebaseMapsTests' do
